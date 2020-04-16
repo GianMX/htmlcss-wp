@@ -132,35 +132,38 @@ footer {
   height: 120px;
   width: 1024px;
 }
-
+/* carattestiche intestazione creatore */
 .pinco {
   text-align: center;
   color: grey
 }
 
 
+/*  stats inserimento loghi social network  */
 .facebook  {
   background-color: white;
   float: left;
-  width: 30%;
+  width: 25%;
+  margin-left: 25%;
 }
 
 .instagram {
   background-color: white;
   float: left;
-  width: 30%;
+  width: 25%;
 
 }
 
 .github {
   background-color: white;
   float: left;
-  width: 30%;
+  width: 25%;
 }
 
  .facebook ,.instagram ,.github i {
   font-size: 40px;
   color: grey;
   margin-top: 40px;
-
 }
+
+/* fine stats inserimento loghi social network */
