@@ -60,3 +60,10 @@ header .menu ul li:hover{
   background-color: black;
 }
 /* Fine Menu */
+
+/* Colonne */
+
+main .col {
+  float: left;
+
+}
