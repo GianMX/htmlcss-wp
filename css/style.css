@@ -19,17 +19,29 @@ body {
 /*  Fine Regole background e contenitore */
 
 /* Inizio  Titolo */
+.testo h1 {
+  border: 5px solid white;
+}
+
+.testo h3 {
+  margin-top: 50px
+}
+
+.monte {
+
+}
+
 .titolo {
   background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
   color: white;
   text-align: center;
-  border: 15px solid white;
+  border: 10px solid white;
   height: 221px;
   position: relative;
   margin-top: 20px;
 }
 
-.testo {
+h1 {
   position:absolute;
   left: 50%;
   top: 50%;
@@ -75,21 +87,23 @@ main .col {
 }
 main .col span {
   color: grey;
-  font-size: 30px;
+  font-size: 15px;
 }
 /* Fine Colonne Regoli Comuni */
 
 /*  Colonna SX */
-main .col.colsx.theme i {
+.theme i {
+  color:orange;
   vertical-align: middle;
+  font-size: 20px;
 }
 main .colsx ul li {
   list-style: none;
   color: #B0BF1A;
-  margin: 5px 0 ;
+  margin: 15px 0 ;
 }
 main .colsx{
-  width: 20%;
+  width: 15%;
   background-color: white;
 }
 
@@ -97,7 +111,7 @@ main .colsx{
 
 /* Colonna Mid */
 main .colmid {
-  width: 50%;
+  width: 60%;
   margin-left: 5%;
   margin-right: 5%;
   background-color: white;
@@ -107,7 +121,7 @@ main .colmid {
 
 /*  Colonna DX */
 main .coldx {
-  width: 20%;;
+  width: 15%;
 
 }
 
