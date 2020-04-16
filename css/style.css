@@ -61,7 +61,7 @@ header .menu ul li:hover{
 }
 /* Fine Menu */
 
-/* Colonne */
+/* Colonne  Regole Comuni*/
 
 main::after {
   content: "";
@@ -69,15 +69,20 @@ main::after {
   clear: both;
 }
 
-main .col  {
+main .col {
   float: left;
-  background-color: white;
   margin-top: 5px;
 }
-main .col h2 {
+main .col span {
   color: grey;
+  font-size: 30px;
 }
-main
+/* Fine Colonne Regoli Comuni */
+
+/*  Colonna SX */
+main .col.colsx.theme i {
+  vertical-align: middle;
+}
 main .colsx ul li {
   list-style: none;
   color: #B0BF1A;
@@ -85,16 +90,24 @@ main .colsx ul li {
 }
 main .colsx{
   width: 20%;
-
+  background-color: white;
 }
+
+/*  Fine Colonna SX */
+
+/* Colonna Mid */
 main .colmid {
   width: 50%;
   margin-left: 5%;
   margin-right: 5%;
+  background-color: white;
 }
 
+/*  Fine Colonna Mid */
+
+/*  Colonna DX */
 main .coldx {
-  width: 20%;
+  width: 20%;;
 
 }
 
@@ -102,4 +115,9 @@ main .col.coldx {
   float: right;
 }
 
+.box {
+  background-color: white;
+  margin-bottom: 10px;
 }
+
+/*  Fine Colonna DX */
