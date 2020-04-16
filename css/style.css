@@ -121,3 +121,35 @@ main .col.coldx {
 }
 
 /*  Fine Colonna DX */
+
+
+/* Footer */
+
+
+
+footer {
+  background-color: white;
+  height: 50px;
+}
+
+
+.facebook {
+  background-color: white;
+  float: left;
+  width: 20%;
+}
+
+.instagram {
+  background-color: white;
+  float: left;
+  width: 20%;
+
+}
+
+.github {
+  background-color: white;
+  float: right;
+  width: 20%;
+
+
+}
