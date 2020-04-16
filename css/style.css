@@ -63,10 +63,15 @@ header .menu ul li:hover{
 
 /* Colonne */
 
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 main .col  {
   float: left;
   background-color: white;
-  width: 33%;
   margin-top: 5px;
 }
 main .col h2 {
@@ -78,9 +83,23 @@ main .colsx ul li {
   color: #B0BF1A;
   margin: 5px 0 ;
 }
+main .colsx{
+  width: 20%;
 
+}
+main .colmid {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main .coldx {
+  width: 20%;
 
 }
 
+main .col.coldx {
+  float: right;
+}
 
 }
