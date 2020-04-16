@@ -1,0 +1,58 @@
+/* Regole Generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fine Regole Generali */
+
+/* Inizio Regole background e contenitore */
+body {
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+}
+
+.contenitore {
+  width: 1024px;
+  margin: auto;
+}
+
+/*  Fine Regole background e contenitore */
+
+/* Inizio  Titolo */
+.titolo {
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+  color: white;
+  text-align: center;
+  border: 15px solid white;
+  height: 221px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.testo {
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
+/* Fine  Titolo */
+
+/* Inizio Menu  */
+.menu {
+  background-color: grey;
+  height: 40px;
+}
+
+header .menu ul {
+  list-style: none;
+  width: 750px;
+  margin: auto;
+}
+
+header .menu ul li {
+  display: inline-block;
+  color: white;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+/* Fine Menu */
