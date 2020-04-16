@@ -27,9 +27,6 @@ body {
   margin-top: 50px
 }
 
-.monte {
-
-}
 
 .titolo {
   background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
@@ -89,6 +86,10 @@ main .col span {
   color: grey;
   font-size: 15px;
 }
+
+.cp1 {
+  padding-top: 15px;
+}
 /* Fine Colonne Regoli Comuni */
 
 /*  Colonna SX */
@@ -116,6 +117,7 @@ main .colmid {
   margin-right: 5%;
   background-color: white;
 }
+
 
 /*  Fine Colonna Mid */
 
