@@ -87,15 +87,15 @@ main::after {
 
 main .col {
   float: left;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 main .col span {
   color: grey;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .cp1 {
-  padding-top: 15px;
+  padding-top: 20px;
 }
 /* Fine Colonne Regoli Comuni */
 
@@ -107,7 +107,7 @@ main .col span {
 }
 main .colsx ul li {
   list-style: none;
-  color: #B0BF1A;
+  color: green;
   margin: 15px 0 ;
 }
 main .colsx{
