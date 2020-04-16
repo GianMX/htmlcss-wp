@@ -66,6 +66,8 @@ header .menu ul li:hover{
 main .col  {
   float: left;
   background-color: white;
+  width: 33%;
+  margin-top: 5px;
 }
 main .col h2 {
   color: grey;
@@ -74,6 +76,7 @@ main .col h2 {
 main .colsx ul li {
   list-style: none;
   color: #B0BF1A;
+  margin: 5px 0 ;
 }
 
 
