@@ -129,27 +129,38 @@ main .col.coldx {
 
 footer {
   background-color: white;
-  height: 50px;
+  height: 120px;
+  width: 1024px;
+}
+
+.pinco {
+  text-align: center;
+  color: grey
 }
 
 
-.facebook {
+.facebook  {
   background-color: white;
   float: left;
-  width: 20%;
+  width: 30%;
 }
 
 .instagram {
   background-color: white;
   float: left;
-  width: 20%;
+  width: 30%;
 
 }
 
 .github {
   background-color: white;
-  float: right;
-  width: 20%;
+  float: left;
+  width: 30%;
+}
 
+ .facebook ,.instagram ,.github i {
+  font-size: 40px;
+  color: grey;
+  margin-top: 40px;
 
 }
