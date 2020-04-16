@@ -63,7 +63,21 @@ header .menu ul li:hover{
 
 /* Colonne */
 
-main .col {
+main .col  {
   float: left;
+  background-color: white;
+}
+main .col h2 {
+  color: grey;
+}
+
+main .colsx ul li {
+  list-style: none;
+  color: #B0BF1A;
+}
+
+
+}
+
 
 }
